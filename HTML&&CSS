@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The GYM</title>
+    <link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+    <style>
+        body {
+            font-family: 'Baloo Bhai';
+            font-size: 22px;
+            width: 2000px;
+            margin: 0px;
+            padding: 0px;
+            background: url('fgh.webp');
+            color: white;
+        }
+
+        .left {
+            /*border: 2px solid red;*/
+            position: absolute;
+            top: 28px;
+            left: 40px;
+
+        }
+
+        .left div {
+            line-height: 0px;
+            font-size: 25px;
+        }
+
+        .left img {
+            height: 100px;
+            width: 130px;
+        }
+
+        .mid {
+           /* border: 2px solid blue;*/
+            display: block;
+            width: 38%;
+            margin: 28px auto;
+        }
+
+        .right {
+         /*   border: 2px solid green;*/
+            position: absolute;
+            top: 28px;
+            right: 20px;
+        }
+
+        .navbar {}
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 22px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .btn {
+
+            margin: 0px 9px;
+            font-family: 'Baloo Bhai';
+            font-size: 22px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+        .btn:hover {
+            background-color: rgb(94, 91, 91);
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 90px 2px;
+            padding: 4px 75px;
+            width: 33%;
+
+            border-radius: 8px;
+
+        }
+
+        .form-group input {
+            font-family: 'Baloo Bhai';
+            font-size: 22px;
+            text-align: center;
+            display: block;
+            width: 386px;
+            padding: 4px;
+            border: 2px solid black;
+            border-radius: 12px;
+            margin: 3px auto;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            width: 82%;
+            margin: auto;
+            margin: 14px auto;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="left">
+            <img src="logo.jpg" alt="">
+            <div>
+                Muscle Pump
+            </div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a class="active" href="&">Home</a></li>
+                <li><a href="&">Health Care</a></li>
+                <li><a href="&">B.M.I</a></li>
+                <li><a href="&">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">
+                Call Us Now
+            </button><button class="btn">
+                Email Us
+            </button>
+
+        </div>
+        <div class="container">
+            <h1>#Ab jaipur karega GYM</h1>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Gender">
+                </div>
+                <div class="form-group">
+                    <input type="number" name="" placeholder="Enter your Contact">
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>
